@@ -10,6 +10,14 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1hx5Q6KpRB6Y8wEnmC0ltroJ0db" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -18,9 +26,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/fonts/poppins" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\lksn_2020\kisi-kisi\CMS\jerbee\GoGreeen\wp\wp-content\themes\GoGreeen\fonts\poppins" />
+      <recent name="C:\xampp\htdocs\lksn_2020\kisi-kisi\CMS\jerbee\GoGreeen\wp\wp-content\themes\GoGreeen\fonts\montserrat" />
+      <recent name="C:\xampp\htdocs\lksn_2020\kisi-kisi\CMS\jerbee\GoGreeen\wp\wp-content\themes\GoGreeen" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -30,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600939884863</updated>
-      <workItem from="1600939886303" duration="1452000" />
+      <workItem from="1600939886303" duration="2362000" />
     </task>
     <servers />
   </component>
@@ -42,9 +58,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="270" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1600941133618" />
-    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1600940836358">
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1600941844852">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600940836358" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600941844852" />
   </component>
 </project>

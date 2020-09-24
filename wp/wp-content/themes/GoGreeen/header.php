@@ -24,7 +24,7 @@
             </a>
         </div>
         <div class="right__side">
-            <img src="" alt="" class="img-header">
+            <img src="<?= get_template_directory_uri() . '/images/before_dawn.svg' ?>" alt="" class="img-header">
         </div>
     </div>
 </header>

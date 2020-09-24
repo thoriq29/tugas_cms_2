@@ -1,0 +1,60 @@
+@import './_variables.css';
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+/* custom css styles */
+body{
+    font-size: 18px;
+    color: #606060;
+    font-family: "Poppins";
+}
+
+.container{
+    position:relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section{
+    position:relative;
+    margin-bottom: 3rem;
+}
+
+.text-center{
+    text-align:center !important;
+}
+
+.text-primary{
+    color: var(--primaryColor) !important;
+}
+
+.btn{
+    border:none;
+    outline:none;
+    padding: 7px 14px;
+    border-radius: 8px;
+    text-align:center;
+    font-size: 18px;
+    font-family: "Poppins Medium";
+    box-shadow: 2px 2px 8px rgba(0, 0, 0 , .3)
+}
+
+.btn-primary{
+    background-color: var(--primaryColor);
+    color: #fafafa !important;
+}
+
+.btn-accent{
+    background-color: var(--accentColor);
+    color: #fafafa !important;
+}
+
+.card{
+    position:relative;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0 , .3)
+}
+/* end custom css styles */
