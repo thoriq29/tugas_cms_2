@@ -69,16 +69,23 @@
 
             <div class="content">
                 <?php $data_news = get_posts([
-                        'post_type' => 'posts',
+                        'post_type' => 'news',
                         'numberposts' => 3,
                 ]) ?>
 
                 <?php foreach($data_news as $news) : ?>
                     <div class="card">
                         <div class="card-body">
+                            <img src="<?= get_the_post_thumbnail($news->ID) ?>" alt="">
                             <h3 class="card-title">
-
+                                <?= $news->post_title ?>
                             </h3>
+                            <p>
+                                <?= substr($news->post_content, 0, 140) ?>...
+                            </p>
+                            <a href="<?= get_the_permalink($news->ID) ?>" class="btn btn-primary">
+                                Read more
+                            </a>
                         </div>
                     </div>
                 <?php endforeach; ?>

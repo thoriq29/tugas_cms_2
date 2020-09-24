@@ -92,11 +92,21 @@ section .header{
     box-shadow: 2px 2px 8px rgba(0, 0, 0 , .2);
     border-radius: 8px;
     background-color: #fff;
+    padding: 18px;
+}
+
+.card .card-title{
+    font-size: 20px;
+    font-family: "Poppins Medium";
+    margin-bottom: 1rem;
+}
+
+.card a{
+    margin-top: 2rem;
 }
 
 .card-body{
     position:relative;
-    padding: 18px;
 }
 /* end custom css styles */
 
@@ -219,3 +229,17 @@ section#solution .container .wrapper h3{
     margin-top: -1.7rem;
 }
 /* end solution styles */
+
+/* news styles */
+
+section#news .container .content{
+    display:grid;
+    grid-template-columns: repeat(3 , auto);
+    grid-gap: 25px;
+}
+
+section#news .container .content img{
+    margin-bottom: 1.5rem;
+}
+
+/* end news styles */
