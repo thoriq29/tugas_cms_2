@@ -1,24 +1,33 @@
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=device-width" />
-<?php wp_head(); ?>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GoGreeen</title>
+    <?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
-<div id="wrapper" class="hfeed">
+<body>
+
 <header id="header">
-<div id="branding">
-<div id="site-title">
-<?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '<h1>'; } ?>
-<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a>
-<?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1>'; } ?>
-</div>
-<div id="site-description"><?php bloginfo( 'description' ); ?></div>
-</div>
-<nav id="menu">
-<div id="search"><?php get_search_form(); ?></div>
-<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-</nav>
+    <div class="container">
+        <div class="left__side">
+            <h1>
+                Let's revive the cool earth with us
+            </h1>
+            <span class="d-block">
+                Are you one of those people who care about the environment ?
+            </span>
+            <a id="btn btn-primary" href="">
+                See the earth now
+            </a>
+        </div>
+        <div class="right__side">
+            <img src="" alt="" class="img-header">
+        </div>
+    </div>
 </header>
-<div id="container">
+
+</body>
+</html>
