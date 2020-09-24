@@ -39,10 +39,10 @@ section .header{
 .section-header::after{
     content: '';
     display:block;
-    width: 35%;
+    width: 25%;
     margin:0 auto;
     border-bottom: 3px solid var(--accentColor);
-    padding-top: 7px;
+    padding-top: 12px;
 }
 
 .text-center{
@@ -176,3 +176,35 @@ section#sympathy .img-wrapper:nth-of-type(2):hover img, section#sympathy .img-wr
     transform:scale(1.3) rotate(-8deg)
 }
 /* end sympathy styles */
+
+/* solution styles */
+section#solution{
+    padding: 35px;
+    background-color: var(--secondaryColor);
+}
+
+section#solution .container .content{
+    display:grid;
+    grid-template-columns: repeat(3 , auto);
+    grid-gap: 25px;
+    justify-content: space-between;
+    align-items:center
+}
+
+section#solution .header{
+    margin-bottom: 0;
+}
+
+section#solution .container .wrapper{
+    position:relative;
+    width:100%;
+    text-align:center
+}
+
+section#solution .container .wrapper img{
+    display: block;
+    margin: 0 auto;
+    width:70%;
+    height: 320px;
+}
+/* end solution styles */
