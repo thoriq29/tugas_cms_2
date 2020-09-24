@@ -14,12 +14,12 @@
     <div class="container">
         <div class="left__side">
             <h1>
-                Let's revive the cool earth with us
+                Let's <span class="text-primary">revive</span> the cool earth with us
             </h1>
             <span class="d-block">
                 Are you one of those people who care about the environment ?
             </span>
-            <a id="btn btn-primary" href="">
+            <a class="btn btn-primary" href="">
                 See the earth now
             </a>
         </div>

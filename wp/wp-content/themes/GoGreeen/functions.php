@@ -2,7 +2,6 @@
 
 class GoGreeen{
     public function __construct(){
-        add_action('init', array($this, 'init'));
         add_action('wp_enqueue_scripts', array($this, 'resource'));
     }
 
