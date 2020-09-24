@@ -12,6 +12,7 @@ body{
     color: #606060;
     font-family: "Poppins";
     overflow-x:hidden;
+    background-color: #f5f5f5;
 }
 
 .container{
@@ -71,8 +72,13 @@ section .header{
 }
 
 .btn-primary{
-    background-color: var(--primaryColor);
-    color: #fafafa !important;
+     background-color: var(--primaryColor);
+     color: #fafafa !important;
+    transition:all .5s;
+}
+
+.btn-primary:hover, .btn-primary:active{
+    background-color: #378788;
 }
 
 .btn-accent{
@@ -83,8 +89,9 @@ section .header{
 .card{
     position:relative;
     width:100%;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0 , .3);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0 , .2);
     border-radius: 8px;
+    background-color: #fff;
 }
 
 .card-body{
@@ -206,5 +213,9 @@ section#solution .container .wrapper img{
     margin: 0 auto;
     width:70%;
     height: 320px;
+}
+
+section#solution .container .wrapper h3{
+    margin-top: -1.7rem;
 }
 /* end solution styles */
