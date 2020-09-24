@@ -25,6 +25,26 @@ section{
     margin-bottom: 3rem;
 }
 
+section .header{
+    margin-bottom: 2.5rem;
+}
+
+.section-header{
+    display:inline-block;
+    font-size: 25px;
+    font-family: "Mt Semi";
+    margin-bottom: 1rem;
+}
+
+.section-header::after{
+    content: '';
+    display:block;
+    width: 35%;
+    margin:0 auto;
+    border-bottom: 3px solid var(--accentColor);
+    padding-top: 7px;
+}
+
 .text-center{
     text-align:center !important;
 }
@@ -79,6 +99,7 @@ header#header{
     height:100vh;
     position:relative;
     background-color: var(--secondaryColor);
+    margin-bottom: 4rem;
 }
 
 header#header .container{
@@ -125,3 +146,33 @@ header#header .container .right__side img.img-header{
 /* end right side */
 
 /* end header styles */
+
+/* sympathy styles */
+section#sympathy .container .content{
+    display:grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 25px;
+}
+
+section#sympathy .img-wrapper{
+    position:relative;
+    width:100%;
+    height: 340px;
+    overflow: hidden;
+}
+
+section#sympathy .img-wrapper img{
+    width:100%;
+    height:100%;
+    transition: all 1s;
+    cursor:pointer
+}
+
+section#sympathy .img-wrapper img:hover{
+    transform:scale(1.3) rotate(8deg)
+}
+
+section#sympathy .img-wrapper:nth-of-type(2):hover img, section#sympathy .img-wrapper:nth-of-type(3) img:hover{
+    transform:scale(1.3) rotate(-8deg)
+}
+/* end sympathy styles */
