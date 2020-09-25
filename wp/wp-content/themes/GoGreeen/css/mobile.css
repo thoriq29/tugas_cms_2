@@ -1,0 +1,131 @@
+body{
+    font-size: 14px;
+}
+
+.container{
+    max-width: 80%;
+}
+
+.btn{
+    font-size:14px;
+}
+
+.section-header{
+    font-size: 20px;
+}
+
+.card .card-title{
+    font-size: 18px
+}
+
+input.custom-input{
+    font-size: 14px;
+    height: 35px;
+    padding: 8px;
+    text-align:center
+}
+
+
+/* navbar setting */
+ul.nav-ul{
+    display:none
+}
+
+.collapse{
+    display:block;
+}
+/* end navbar setting */
+
+/* header */
+
+header#header .container .left__side{
+    order:1;
+    text-align:center
+}
+
+header#header .container .left__side h1{
+    font-size: 25px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .2)
+}
+
+header#header .container .left__side span{
+    font-size: 14px;
+}
+
+header#header .container .left__side h1 span{
+    font-size: 25px;
+}
+
+header#header .container .left__side a{
+    max-width: unset;
+}
+
+header#header .container .right__side{
+    order:0;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+
+header#header .container .right__side img.img-header{
+    height: 220px;
+}
+
+header#header .container .left__side, header#header .container .right__side{
+    flex: 100%
+}
+
+/* end header */
+
+section#solution .container .content{
+    display:block;
+}
+
+section#solution .container .wrapper img{
+    width:100%;
+}
+
+section#solution .container .wrapper h3{
+    margin-top: -3rem;
+}
+
+section#solution .container .wrapper:last-child h3{
+    margin-top:-1rem
+}
+
+section#news .container .content{
+    display:block;
+}
+
+section#sympathy .container .content{
+    display:block;
+}
+
+section#sympathy .img-wrapper{
+    margin-bottom: 1.5rem;
+}
+
+section#news .container .content .card{
+    margin-bottom: 1.5rem;
+}
+
+section#news .container .content img, section#other-news .container .content img{
+    height: 220px
+}
+
+footer#footer .container h3{
+    font-size: 18px
+}
+
+footer#footer .container h3{
+    display: block;
+    max-width: 80%;
+    margin:0 auto;
+    margin-bottom: 1rem !important;
+}
+
+/* detail news */
+main.detail-wrapper header img{
+    height: 14rem;
+    width:80%
+}
+/* end detail news */

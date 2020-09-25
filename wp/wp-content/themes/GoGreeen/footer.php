@@ -3,7 +3,7 @@
         <div class="invite">
             <h3>Let us invite you if you are interested</h3>
             <form action="" method="post">
-                <input type="text" class="custom-input" placeholder="example@example.com">
+                <input type="text" class="custom-input" placeholder="Your email address">
                 <button type="submit" class="btn btn-primary">
                     Invite me
                 </button>

@@ -11,15 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e0c414b-1505-48e1-9175-50d03b15438d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mediafiles/images/reading.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/images/reading_at_tree.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mediafiles/images/reading_at_tree.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/images/reading_at_tree.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/images/reading_at_tree.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/single-news.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/single-news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hx5Q6KpRB6Y8wEnmC0ltroJ0db" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600939884863</updated>
       <workItem from="1600939886303" duration="9871000" />
-      <workItem from="1600994169456" duration="8678000" />
+      <workItem from="1600994169456" duration="17183000" />
     </task>
     <servers />
   </component>
@@ -90,13 +90,13 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="492" y="270" key="NewPhpFileDialog" timestamp="1601002181737">
+    <state x="492" y="270" key="NewPhpFileDialog" timestamp="1601016745973">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="270" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1601002181737" />
-    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1601007274442">
+    <state x="492" y="270" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1601016745973" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1601027478039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601007274442" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601027478039" />
   </component>
 </project>
