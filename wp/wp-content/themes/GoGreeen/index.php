@@ -76,7 +76,7 @@
                 <?php foreach($data_news as $news) : ?>
                     <div class="card">
                         <div class="card-body">
-                            <img src="<?= get_the_post_thumbnail($news->ID) ?>" alt="">
+                            <img src="<?= get_the_post_thumbnail($news->ID); ?>
                             <h3 class="card-title">
                                 <?= $news->post_title ?>
                             </h3>

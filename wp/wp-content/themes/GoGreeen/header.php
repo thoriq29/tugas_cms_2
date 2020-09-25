@@ -19,8 +19,8 @@
             <span class="d-block">
                 Are you one of those people who care about the environment ?
             </span>
-            <a class="btn btn-primary" href="">
-                See the earth now
+            <a class="btn btn-primary" href="#sympathy">
+                Why we do this ?
             </a>
         </div>
         <div class="right__side">

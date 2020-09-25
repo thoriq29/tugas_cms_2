@@ -7,6 +7,11 @@
 }
 
 /* custom css styles */
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-size: 18px;
     color: #606060;
@@ -23,7 +28,7 @@ body{
 
 section{
     position:relative;
-    margin-bottom: 3rem;
+    padding-top: 4rem;
 }
 
 section .header{
@@ -126,7 +131,6 @@ header#header{
     height:100vh;
     position:relative;
     background-color: var(--secondaryColor);
-    margin-bottom: 4rem;
 }
 
 header#header .container{
@@ -184,7 +188,7 @@ section#sympathy .container .content{
 section#sympathy .img-wrapper{
     position:relative;
     width:100%;
-    height: 340px;
+    height: 15em;
     overflow: hidden;
 }
 
@@ -208,6 +212,7 @@ section#sympathy .img-wrapper:nth-of-type(2):hover img, section#sympathy .img-wr
 section#solution{
     padding: 35px;
     background-color: var(--secondaryColor);
+    margin-top: 4rem;
 }
 
 section#solution .container .content{
@@ -244,12 +249,21 @@ section#solution .container .wrapper h3{
 
 section#news .container .content{
     display:grid;
-    grid-template-columns: repeat(3 , auto);
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     grid-gap: 25px;
 }
 
 section#news .container .content img{
     margin-bottom: 1.5rem;
+    width:100%;
+    height: 250px;
+}
+
+section#news .container .content a:hover{
+    box-shadow:unset;
+    background-color: transparent;
+    border: 1px solid var(--primaryColor);
+    color: #606060 !important
 }
 
 /* end news styles */
@@ -258,6 +272,7 @@ section#news .container .content img{
 footer#footer{
     background-color: var(--secondaryColor);
     padding: 35px;
+    margin-top: 4rem;
 }
 
 footer#footer .container{
@@ -286,12 +301,14 @@ footer#footer .container .invite button{
 
 .norm_row{
     position:absolute;
-    left:55%;
+    left:60%;
     transform:translateX(-50%)
 }
-
-.sfsi_wicons:nth-of-type(2){
-    margin-left: 2rem !important;
-    margin-right: 2rem !important
-}
 /* end footer styles */
+
+/* detail news styles */
+main#detail-news .container .content img{
+    width:100%;
+    height: 25em;
+}
+/* end detail news styles */
