@@ -131,6 +131,42 @@ input.custom-input{
 }
 /* end custom css styles */
 
+/* navbar styles */
+nav#navbar{
+    background-color: #fff;
+    width:100vw;
+    padding: 25px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .1);
+    position:fixed;
+    z-index:999
+}
+
+a.brand, a.nav-link{
+    text-decoration: none;
+    color: #404040
+}
+
+nav#navbar .container{
+    display:grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    align-items:center
+}
+
+ul.nav-ul{
+    list-style-type: none;
+}
+
+li.nav-item:first-child{
+    margin-left: 0;
+}
+
+li.nav-item{
+    float: left;
+    margin-left: 3rem;
+}
+/* end navbar styles */
+
 /* header styles */
 header#header{
     width:100vw;
@@ -317,7 +353,14 @@ footer#footer .container .invite button{
 section#detail-news{
     padding-top: 0;
 }
-heaade img{
+
+main.detail-wrapper header{
+    background-color: var(--secondaryColor);
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+main.detail-wrapper header img{
     display:block;
     margin:0 auto;
     width:60%;

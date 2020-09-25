@@ -10,6 +10,40 @@
 </head>
 <body>
 
+<nav id="navbar">
+    <div class="container">
+        <a href="<?= home_url(); ?>" class="brand">
+            Logo
+        </a>
+
+        <ul class="nav-ul">
+            <li class="nav-item">
+                <a href="#header" class="nav-link">
+                    Home
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#sympathy" class="nav-link">
+                    Motivation
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#solution" class="nav-link">
+                    Benefits
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#news" class="nav-link">
+                    News
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 <header id="header">
     <div class="container">
         <div class="left__side">
