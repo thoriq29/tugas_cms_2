@@ -307,8 +307,9 @@ footer#footer .container .invite button{
 /* end footer styles */
 
 /* detail news styles */
-main#detail-news .container .content img{
+section#detail-news .container .content img{
     width:100%;
-    height: 25em;
+    height: 32em;
+    margin-bottom: 2rem;
 }
 /* end detail news styles */
