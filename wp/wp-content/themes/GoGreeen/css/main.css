@@ -55,6 +55,12 @@ section .header{
     text-align:center !important;
 }
 
+.text-header{
+    font-family: "Poppins Medium";
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+}
+
 .text-primary{
     color: var(--primaryColor) !important;
 }
@@ -307,9 +313,32 @@ footer#footer .container .invite button{
 /* end footer styles */
 
 /* detail news styles */
+main.detail-wrapper{
+    position: relative;
+    display:grid;
+    grid-template-columns: 75% 25%;
+    grid-gap: 35px;
+}
 section#detail-news .container .content img{
     width:100%;
     height: 32em;
     margin-bottom: 2rem;
 }
+
+section#detail-news .container .content p{
+    text-indent: 3rem
+}
+
 /* end detail news styles */
+
+/* aside detail news styles */
+aside#other-news{
+    position:fixed;
+    width:100%;
+    top:0;
+    right:0;
+    padding: 17px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+/* end aside detail news styles */

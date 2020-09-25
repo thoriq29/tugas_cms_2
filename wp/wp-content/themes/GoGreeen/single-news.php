@@ -1,3 +1,9 @@
+<?php $news_data = get_posts([
+    'post_type' => 'news',
+    'numberposts' => 3,
+    'exclude' => array( get_the_ID() )
+]) ?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,21 +16,37 @@
 </head>
 <body>
 
-<section id="detail-news">
-    <div class="container">
-        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-            <div class="content">
-                <img src="<?= get_the_post_thumbnail() ?>
-                <h3 class="text-center">
+<main class="detail-wrapper">
+    <section id="detail-news">
+        <div class="container">
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                <div class="content">
+                    <img src="<?= get_the_post_thumbnail() ?>
+                <h3 class="text-center text-header">
                     <?= the_title(); ?>
-                </h3>
-                <p>
-                    <?= the_content(); ?>
-                </p>
-            </div>
-        <?php endwhile; endif; ?>
+                    </h3>
+                    <p>
+                        <?= the_content(); ?>
+                    </p>
+                </div>
+            <?php endwhile; endif; ?>
+        </div>
+    </section>
+
+    <div id="other-news">
+        <div class="container">
+            <ul>
+                <?php foreach($news_data as $news) : ?>
+                    <li>
+                        <a href="<?= get_the_permalink($news->ID) ?>">
+                            <?= $news->post_title ?>
+                        </a>
+                    </li>x
+                <?php endforeach; ?>
+            </ul>
+        </div>
     </div>
-</section>
+</main>
 
 <?php get_footer(); ?>
 </body>
