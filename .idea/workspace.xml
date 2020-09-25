@@ -11,9 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e0c414b-1505-48e1-9175-50d03b15438d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mediafiles/images/reading.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/images/reading_at_tree.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mediafiles/images/reading_at_tree.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/images/reading_at_tree.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/images/reading_at_tree.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/single-news.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/single-news.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +48,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp/wp-content/themes/GoGreeen/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\lksn_2020\kisi-kisi\CMS\jerbee\GoGreeen\wp\wp-content\themes\GoGreeen" />
       <recent name="C:\xampp\htdocs\lksn_2020\kisi-kisi\CMS\jerbee\GoGreeen\wp\wp-content\themes\GoGreeen\images" />
+      <recent name="C:\xampp\htdocs\lksn_2020\kisi-kisi\CMS\jerbee\GoGreeen\mediafiles\images" />
+      <recent name="C:\xampp\htdocs\lksn_2020\kisi-kisi\CMS\jerbee\GoGreeen\wp\wp-content\themes\GoGreeen" />
       <recent name="C:\xampp\htdocs\lksn_2020\kisi-kisi\CMS\jerbee\GoGreeen\wp\wp-content\themes\GoGreeen\fonts\poppins" />
       <recent name="C:\xampp\htdocs\lksn_2020\kisi-kisi\CMS\jerbee\GoGreeen\wp\wp-content\themes\GoGreeen\fonts\montserrat" />
     </key>
@@ -64,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600939884863</updated>
       <workItem from="1600939886303" duration="9871000" />
-      <workItem from="1600994169456" duration="6882000" />
+      <workItem from="1600994169456" duration="8678000" />
     </task>
     <servers />
   </component>
@@ -87,9 +94,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="270" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1601002181737" />
-    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1601005461960">
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1601007274442">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601005461960" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601007274442" />
   </component>
 </project>

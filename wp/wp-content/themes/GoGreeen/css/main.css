@@ -135,10 +135,15 @@ input.custom-input{
 nav#navbar{
     background-color: #fff;
     width:100vw;
-    padding: 25px;
+    padding: 12px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .1);
     position:fixed;
     z-index:999
+}
+
+a.brand img.img-logo{
+    width: 120px;
+    height: 45px;
 }
 
 a.brand, a.nav-link{
@@ -349,6 +354,10 @@ footer#footer .container .invite button{
 /* end footer styles */
 
 /* detail news styles */
+
+main.detail-wrapper{
+    padding-top: 4.5rem;
+}
 
 section#detail-news{
     padding-top: 0;

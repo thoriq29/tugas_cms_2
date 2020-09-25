@@ -16,6 +16,14 @@
 </head>
 <body>
 
+<nav id="navbar">
+    <div class="container" style="display: flex; justify-content: center; align-items:center">
+        <a href="<?= home_url(); ?>" class="brand">
+            <img src="<?= get_template_directory_uri() . '/images/logo.png' ?>" alt="" class="img-logo">
+        </a>
+    </div>
+</nav>
+
 <main class="detail-wrapper">
     <header>
         <img src="<?= get_the_post_thumbnail() ?>

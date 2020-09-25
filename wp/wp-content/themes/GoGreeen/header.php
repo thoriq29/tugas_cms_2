@@ -13,7 +13,7 @@
 <nav id="navbar">
     <div class="container">
         <a href="<?= home_url(); ?>" class="brand">
-            Logo
+            <img src="<?= get_template_directory_uri() . '/images/logo.png' ?>" alt="" class="img-logo">
         </a>
 
         <ul class="nav-ul">

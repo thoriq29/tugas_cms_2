@@ -43,7 +43,7 @@
             <div class="content">
                 <div class="wrapper">
                     <img src="<?= get_template_directory_uri() . '/images/friendship.svg' ?>" alt="">
-                    <h3>the atmosphere around is cool</h3>
+                    <h3>No more polution</h3>
                 </div>
                 <div class="wrapper">
                     <img src="<?= get_template_directory_uri() . '/images/dreamer.svg' ?>" alt="">
